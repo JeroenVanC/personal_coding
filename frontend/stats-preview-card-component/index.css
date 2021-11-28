@@ -1,0 +1,100 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Lexend+Deca&display=swap');
+
+:root {
+    /* colors */
+    --clr-very-dark-blue: 233 47% 7%;
+    --clr-dark-desaturated-blue: 244 38% 16%;
+    --soft-violet-accent: 277 64% 61%;
+
+    --clr-white : 0 0% 100%;
+    --clr-Slightly-tr-white-main: 0 0% 100% 0.75;
+    --clr-Slightly-tr-white-headings: 0 0% 100% 0.6;
+
+    /* font-families */
+    --ff-sans-inter: "Inter", sans-serif;
+    --ff-sans-lexend-deca: "Lexend Deca", sans-serif;
+}
+
+body {
+    display: block;
+    background: hsl(var(--clr-very-dark-blue));
+    font-size: 15px;
+    font-family: var(--ff-sans-inter);
+    color: hsl(var(--clr-white));
+    
+}
+
+.container-main {
+    /* background: chartreuse; */
+    display: flex;
+    margin-top: 10rem;
+    justify-content: center;
+}
+
+.card {
+    background: hsl(var(--clr-dark-desaturated-blue));
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    border-radius: .5rem;
+    position: relative;
+}
+
+.container-left {
+    margin: 3rem 5rem;
+    width: 50%;
+}
+
+.container-left span {
+    color: hsl(var(--soft-violet-accent));
+}
+
+.container-left p {
+    margin-top: 2rem;
+    color: hsl(var(--clr-white) / .5);
+    line-height: 20pt;
+}
+
+.image {
+    width: 50%;
+    border-radius: 0 .5rem .5rem 0rem;
+    min-width: 540px;
+    min-height: 446px;
+}
+
+.color-overlay {
+    width: 540px;
+    height: 446px;
+    background: hsl(var(--soft-violet-accent));
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    mix-blend-mode:multiply;
+    
+
+}
+
+.contianer-bottem {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+.contianer-bottem div {
+}
+
+.bottem-h1 {
+    margin: 0;
+}
+
+.bottem-p {
+    margin: 0px !important;
+    letter-spacing: 2px;
+    font-family: var(--ff-sans-lexend-deca);
+    line-height: 20px;
+}
+
