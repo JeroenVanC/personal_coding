@@ -1,0 +1,92 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+}
+
+h1 {
+  font-family: "Big Shoulders Display", cursive;
+}
+
+p {
+  font-family: "Lexend Deca", sans-serif;
+  color: rgba(255, 255, 255, 0.529);
+  line-height: 1.7rem;
+}
+
+.container {
+  display: flex;
+  padding: 1rem;
+  max-width: 900px;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 3rem 2.5rem;
+  padding-right: 4rem;
+}
+
+.text-container h1 {
+  text-transform: uppercase;
+}
+
+.yellow {
+  background: hsl(31, 77%, 52%);
+  border-radius: 0.5em 0 0 0.5em;
+}
+
+.blue {
+  background: hsl(184, 100%, 22%);
+}
+
+.green {
+  background: hsl(179, 100%, 13%);
+  border-radius: 0 0.5em 0.5em 0;
+}
+
+button {
+  background: hsl(0, 0%, 100%);
+  border: none;
+  font-size: 1rem;
+  padding: 1.3rem 2.2rem;
+  border-radius: 3rem;
+  cursor: pointer;
+  margin-top: 3rem;
+  transition: all 0.3s ease;
+}
+
+.btn-yellow {
+  color: hsl(31, 77%, 52%);
+}
+.btn-yellow:hover {
+  background: hsl(31, 77%, 52%);
+  color: white;
+  outline: 2.2px solid white;
+}
+
+.btn-blue {
+  color: hsl(184, 100%, 22%);
+}
+
+.btn-blue:hover {
+  background: hsl(184, 100%, 22%);
+  color: white;
+  outline: 2.2px solid white;
+}
+
+.btn-green {
+  color: hsl(179, 100%, 13%);
+}
+
+.btn-green:hover {
+  background: hsl(179, 100%, 13%);
+  color: white;
+  outline: 2.2px solid white;
+}
