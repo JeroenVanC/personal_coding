@@ -1,0 +1,51 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  /* 62.5% of 16px = 10px */
+  /* font-size: 62.5%; */
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Libre+Baskerville:ital@1&family=Open+Sans&family=Roboto:wght@500&display=swap");
+
+body {
+  margin: 2rem 5rem;
+
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+  height: 350px;
+  object-position: top;
+}
+
+p {
+  font-family: "Libre Baskerville", serif;
+  font-style: italic;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.8rem;
+}

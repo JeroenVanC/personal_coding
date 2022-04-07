@@ -1,0 +1,31 @@
+table {
+  margin: 20px;
+  border-collapse: collapse;
+}
+
+table th {
+  padding: 10px;
+  background: #427fef;
+  color: white;
+}
+tfoot {
+  text-align: left;
+}
+
+td {
+  padding: 10px;
+  border-top: 1px solid #c4dcf3;
+}
+
+tr:nth-child(even) {
+  background: #eef7ff;
+}
+
+.box {
+  margin: 20px;
+  box-shadow: 10px 10px lightgray;
+  width: 300px;
+  height: 300px;
+  background: tomato;
+  border-radius: 10px;
+}

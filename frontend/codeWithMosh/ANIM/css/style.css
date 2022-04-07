@@ -1,0 +1,67 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+html {
+  /* 62.5% of 16px = 10px */
+  /* font-size: 62.5%; */
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Inter", sans-serif;
+}
+
+.card {
+  border-radius: 30px;
+  box-shadow: 0 0 20px 30px #f9f9f9;
+  overflow: hidden;
+  width: 60%;
+  max-width: 500px;
+
+  transition: transform 0.5s;
+  transform: rotate(-5deg);
+}
+
+.card:hover {
+  transform: rotate(0);
+}
+
+.card:hover .footer img {
+  transform: scale(1.15);
+}
+
+.p-text {
+  margin: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.footer {
+  padding-left: 2rem;
+  display: flex;
+  align-items: center;
+  background: rgb(116, 214, 144);
+  background: linear-gradient(
+    90deg,
+    rgba(92, 191, 187, 1),
+    rgba(116, 214, 144, 1) 100%
+  );
+  color: white;
+}
+
+.footer img {
+  margin: 1rem;
+  margin-left: 0;
+  width: 60px;
+  border-radius: 100%;
+  border: 2px solid white;
+
+  transition: transform 0.5s;
+}
